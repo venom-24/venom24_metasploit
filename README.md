@@ -26,28 +26,25 @@
 
 ## DISPONIBLE EN:
 * TERMUX
+* UBUNTU
+
 
 ### Probado En :
 * TERMUX
+* UBUNTU
 ### Requerimientos :
-* Conexion a internet
-* 100 MB De Almacenamiento 
+* Conexion a internet estable
+* 500 MB De Almacenamiento 
 
 ## COMANDOS DE INSTALACION EN TERMUX:
 
 * ``apt update -y``
 * ``apt upgrade -y``
 * ``apt install git -y``
-* ``git clone https://github.com/venom-24/Tunel-ngrok.git``
-* ``cd Tunel-ngrok;ls``
-* ``chmod +x *;ls``
-* ``bash install.sh``
-* ``Al finalizar el script de install.sh
-Colocan el siguiente comando, seguido del authtoken que les brinda la página de ngrok 
-Ejemplo:``
-* ``ngrok authtoken 2emoUxCOyAHXkVKSAWWkvV7dsX5_6Q7HbPS6EzrXMZfsSGfh4``
-* ``En seguida escriben lo siguiente``
-* ``ngrok http 4545`` 
+* ``git clone https://github.com/venom-24/venom24_metasploit.git ``
+* ``cd venom24_metasploit;ls``
+* ``chmod +x metasploit.sh;ls``
+* ``bash metasploit.sh``
 ## CONECTATE CON NOSOTROS:
 [![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/venom.24.tr)
 <a href="https://youtube.com/playlist?list=PLpscnM9CpYLgI-lwRd-Nyw1uq98KmkPA2"><img title="youtube" src="https://img.shields.io/badge/YouTube-VeNOM24-red?style=for-the-badge&logo=Youtube">
