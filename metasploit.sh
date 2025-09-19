@@ -83,7 +83,7 @@ ls
 rm -rf config                                       
 cd
 cd ~/venom24_metasploit;ls                          
-mv config $PREFIX/opt/metasploit-framework
+cp -r config $PREFIX/opt/metasploit-framework
 
 clear                                              
 echo -e "\e[1;36mIniciando msfconsole"              
