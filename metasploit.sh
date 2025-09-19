@@ -84,3 +84,9 @@ rm -rf config
 cd
 cd ~/venom24_metasploit;ls                          
 mv config $PREFIX/opt/metasploit-framework
+
+clear                                              
+echo -e "\e[1;36mIniciando msfconsole"              
+sleep 2.0                                          
+echo -e "\e[0m"                                   
+msfconsole
