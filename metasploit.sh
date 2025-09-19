@@ -77,3 +77,10 @@ termux-elf-cleaner ${PREFIX}/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
 echo -e "\e[1;36m METASPLOIT SE A INSTALADO CON EXITO"
 echo
 echo -e "\e[1;32m Inicialo Con El Comando\e[1;36m msfconsole"
+
+cd $PREFIX/opt/metasploit-framework
+ls
+rm -rf config                                       
+cd
+cd ~/venom24_metasploit;ls                          
+mv config $PREFIX/opt/metasploit-framework
